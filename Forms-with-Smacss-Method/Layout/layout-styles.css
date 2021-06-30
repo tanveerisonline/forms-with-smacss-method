@@ -1,0 +1,28 @@
+#l-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#l-registration_form {
+  padding: 55px;
+  border-radius: 5px;
+  width: 750px;
+}
+#l-menu {
+  width: 752px;
+  height: 70px;
+  margin: -55px 0px 0px -56px;
+  border-radius: 10px 10px 0 0;
+  padding: 25px 0px 0px 15px;
+}
+#l-alert {
+  width: 75%;
+}
+.l-article {
+  width: 100%;
+  margin: 20px 0;
+}
+.text-line {
+  width: 86%;
+}
