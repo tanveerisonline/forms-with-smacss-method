@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Practices</title>
+</head>
+
+<style>
+
+code {
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+}
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+section {
+  float: left;
+  width: 63%;
+}
+aside {
+  float: right;
+  width: 30%;
+}
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+</style>
+<body>
+
+    <header>
+        <code>&#60;header&#62;</code>
+      </header>
+      
+      <section>
+        <code>&#60;section&#62; <br> float: left;</code>
+      </section>
+      
+      <aside>
+        <code>&#60;aside&#62; <br> float: right;</code>
+      </aside>
+      
+      <footer>
+        <code>&#60;footer&#62; <br> clear: both;</code>
+      </footer>
+
+
+    <!------------------------- Form Starts Here ----------------->
+
+    <form action="">
+        <div>
+            <label for="name" >Name</label>
+            <input type="text" id="name" placeholder="John Doe"/>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="" id="email"/>
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="number" id="phone"/>
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">Gender
+                <option value="male" selected>male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" />
+        </div>
+        <div>
+            <label for="birthdate">Date of Birth</label>
+            <input type="date"/>
+        </div>
+        <div>
+            <label for="radio">Membership</label>
+            <input type="radio" name="simple" id="simple"/>Radio Button
+            <input type="checkbox" name="box" id="box">Check Box      
+            <input type="radio" checked name="simple" id="simple"/>Radio Button  
+            <input type="range" name="range" id="range">Range
+        </div>
+        <div>
+            <label for="message">message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+    <!------------------------- Form Ends Here ----------------->
+
+    <!------------------------- Form Starts Here ----------------->
+
+
+    <ul type="A">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li><ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul></li>
+    </ul>
+
+    <ol type="A">
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <ol type="i"><li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li></ol>
+        <li>1</li>
+    </ol>
+<!-- -------------------------desOrdered and Unordered List Ends Here---------- -->
+    <table>
+        <thead>Id</thead>
+        <thead>Name</thead>
+        <thead>E-male</thead>
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Tanveer</td>
+                <td>tanveerisonline@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+    <table style="border: 1px solid #ff3434;">
+        <thead>Id</thead>
+        <thead>Name</thead>
+        <thead>Email</thead>
+        <thead>Address</thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Zaid Naqash</td>
+                <td>zaid.naqash@gmail.com</td>
+                <td>Srinagar J&K</td>
+            </tr>
+        </tbody>
+    </table>
+<!-- -------------------------Table Ends Here---------- -->
+
+
+
+
+  
+</body>
+</html>
