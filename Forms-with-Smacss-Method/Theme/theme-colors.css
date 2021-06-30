@@ -76,3 +76,10 @@ li a {
   background-color: white;
   color: black;
 }
+.radio-item label {
+  color: #666;
+}
+.tick {
+  color: white;
+  background: green;
+}
