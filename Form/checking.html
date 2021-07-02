@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./Base/reset.css">
+    <link rel="stylesheet" href="./Module/form.css" />
+    <link rel="stylesheet" href="./Module/style.css" />
+    <link rel="stylesheet" href="./Theme/media.css">
+    <link rel="stylesheet" href="./Theme/theme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+  </head>
+ 
+  <body>
+
+    <header>
+      <nav >
+          <ul class="navbar__links" id="stepTwo">
+              <li><a href="./checking.html" class="navtwo activated">Check Eligibility </a></li> 
+              <span class="right">&#62;</span>
+              <li><a href="./form.html" class="navtwo">Send a message </a></li> 
+              <span class="right">&#62;</span>
+              <li><a href="#" class="navtwo">Find a site</a></li>                               
+          </ul>                    
+            <a class="last-line" href="#">Start over</a> 
+                    
+      </nav> 
+
+  </header>
+    <div class="container">
+              
+      <div class="content">
+        
+        <form>
+            <div class="l-article">  
+                <h2 class="heading">Are you above 18 years of age?</h2>
+                <span class="alert-text"><i>In real world prescreen scanarios,a question can have short description.This piece of description can be
+                instructional,informational or even a disclamer.</i></span>
+            </div>
+            
+            <div class="form_wrap message-form">
+               
+    
+                <div class="radio-item input_wrap">
+                    <input type="radio" id="first" name="ritem" value="ropt1">
+                    <label for="first">Yes</label>
+                </div>
+                
+                <div class="radio-item input_wrap">
+                    <input type="radio" id="second" name="ritem" value="ropt2">
+                    <label for="second">No</label>
+                </div>
+    
+                <div class="radio-item input_wrap radio_text">
+                    <input type="radio" id="third" name="ritem" value="ropt3">
+                    <label for="third">
+                    <div class="alert-text-radio">In Real world prescreen scanarios,a question can have short description.
+                      This piece of description can be instructional,informational or even a disclamer.</div></label>
+                </div>
+    
+                <div class="input_wrap_next input_wrap buttons">
+                    <a href="#" class="btn info">Previous</a>
+                    <a href="./form.html" class="button-filled btn2">Next</a>
+                </div>                   
+            </div>
+        </form>
+      </div>
+    </div>
+    </div>  
+    <script src="./State/scripts.js"></script>  
+  </body>
+</html>

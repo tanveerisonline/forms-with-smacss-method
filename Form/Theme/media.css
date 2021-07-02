@@ -1,0 +1,76 @@
+@media (max-width: 584px) {
+  .container {
+    max-width: 100%;
+  }
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category {
+    width: 100%;
+  }
+  .content form .user-details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+@media (max-width: 459px) {
+  .container .content .category {
+    flex-direction: column;
+  }
+}
+@media (max-width: 632px) {
+  header {
+    padding: 20px 30px;
+  }
+  ul li a {
+    font-size: 12px;
+  }
+  #l-alert {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    text-align: left;
+    font-size: 14px;
+  }
+  .heading {
+    font-family: cursive;
+    font-size: 22px;
+    padding-bottom: 5px;
+  }
+  .tick {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    border-radius: 100%;
+    margin-right: 8px;
+  }
+  .form_wrap input[type="text"],
+  .form_wrap .submit_btn {
+    height: 40px;
+  }
+  .form_wrap input[type="tel"] {
+    width: 70%;
+    height: 40px;
+  }
+  .country {
+    width: 30%;
+    height: 40px;
+  }
+  .small-screen {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
+@media (max-width: 350px) {
+  .buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
