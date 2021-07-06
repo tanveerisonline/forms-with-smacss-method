@@ -1,5 +1,5 @@
 @media (max-width: 584px) {
-  .container {
+  .l-container {
     max-width: 100%;
   }
   form .user-details .input-box {
@@ -18,13 +18,34 @@
   }
 }
 @media (max-width: 459px) {
-  .container .content .category {
+  .l-container .l-content .category {
     flex-direction: column;
+  }
+}
+@media (max-width: 510px) {
+  .last-link {
+    display: none;
+  }
+
+  .l-article {
+    font-size: 12px;
+    width: 100%;
+  }
+  .heading {
+    color: #4056a0;
+    font-size: 20px;
   }
 }
 @media (max-width: 632px) {
   header {
     padding: 20px 30px;
+  }
+  nav {
+    display: flex;
+  }
+  .last-link {
+    font-size: 12px;
+    padding-top: 6px;
   }
   ul li a {
     font-size: 12px;
@@ -34,7 +55,7 @@
     padding: 10px;
     margin: 10px 0px 0px 0px;
     text-align: left;
-    font-size: 14px;
+    font-size: 13px;
   }
   .heading {
     font-family: cursive;
@@ -48,17 +69,16 @@
     border-radius: 100%;
     margin-right: 8px;
   }
-  .form_wrap input[type="text"],
-  .form_wrap .submit_btn {
-    height: 40px;
+  .l-form_wrap input[type="text"] {
+    height: 35px;
   }
-  .form_wrap input[type="tel"] {
+  .l-form_wrap input[type="tel"] {
     width: 70%;
-    height: 40px;
+    height: 35px;
   }
   .country {
     width: 30%;
-    height: 40px;
+    height: 35px;
   }
   .small-screen {
     display: flex;
@@ -66,11 +86,116 @@
     flex-wrap: nowrap;
     flex-direction: column;
   }
+  .l-form_wrap .input_wrap label {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 14px;
+  }
+  .l-form_wrap .input_wrap label,
+  .country {
+    font-size: 12px;
+  }
+  .l-form_wrap .input_wrap {
+    margin: 4px 0px 4px 0px;
+  }
+  .radio-div-one {
+    height: 35px;
+  }
+  .radio-item label:before {
+    top: 0px;
+    right: 1px;
+    width: 10px;
+    height: 10px;
+  }
+  .radio-item input[type="radio"]:checked + label:after {
+    width: 8px;
+    height: 8px;
+    top: 13px;
+    left: 12px;
+  }
+
+  .alert-text-radio {
+    font-size: 12px;
+    margin: -22px 0px 0px 20px;
+  }
+
+  .l-form_wrap input[type="text"],
+  .l-form_wrap input[type="tel"] {
+    font-size: 13px;
+  }
+
+  .l-form_wrap .submit_btn {
+    height: 35px;
+    padding: 9px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+  }
+  .button-filled,
+  .btn {
+    padding: 10px 40px;
+    font-size: 15px;
+    margin: 6px 0px;
+  }
 }
-@media (max-width: 350px) {
+@media (max-width: 420px) {
   .buttons {
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+  .button-filled,
+  .btn {
+    padding: 9px 40px;
+    font-size: 15px;
+    margin: 6px 0px;
+    text-align: center;
+  }
+  header {
+    padding: 10px 0px;
+  }
+  .heading {
+    font-size: 18px;
+    padding-bottom: 4px;
+  }
+  #l-alert {
+    font-size: 10px;
+  }
+  ul li a {
+    font-size: 10px;
+  }
+  .radio-div-one {
+    height: 30px;
+  }
+
+  .radio-item label:before {
+    top: 1px;
+  }
+
+  .radio-item input[type="radio"]:checked + label:after {
+    top: 10px;
+    left: 10px;
+  }
+  .l-article {
+    margin-bottom: 13px;
+  }
+  .l-form_wrap .input_wrap {
+    margin: 5px;
+  }
+  .l-form_wrap input[type="text"] {
+    height: 30px;
+  }
+  .l-form_wrap input[type="tel"] {
+    height: 30px;
+  }
+
+  .country {
+    width: 30%;
+    height: 30px;
+    font-size: 9px;
+  }
+  .radio-item {
+    padding: 6px 8px;
+    margin: 15px auto;
   }
 }

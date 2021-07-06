@@ -3,41 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./Base/reset.css">
+    <link rel="stylesheet" href="./Layout/layout.css">
     <link rel="stylesheet" href="./Module/form.css" />
     <link rel="stylesheet" href="./Module/style.css" />
+    <link rel="stylesheet" href="./State/state.css">
     <link rel="stylesheet" href="./Theme/media.css">
     <link rel="stylesheet" href="./Theme/theme.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    
   </head>
   <body>
+    <div class="l-main-container">
 
     <header>
       <nav >
-        <ul class="navbar__links" id="stepOne">
-            <li><a href="./checking.html" class="navone">Check Eligibility </a></li> 
-            <span class="right">&#62;</span>
-            <li><a href="./form.html" class="navone active">Send a message </a></li> 
-            <span class="right">&#62;</span>
+        <ul class="navbar-links" id="stepOne">
+            <li><a href="./checking.html" class="navone">Check Eligibility  
+              <span class="nav-arrow">&#62;</span></a></li>
+            <li><a href="./form.html" class="navone active">Send a message  
+              <span class="nav-arrow">&#62;</span></a></li>
             <li><a href="#" class="navone">Find a site</a></li>  
         </ul>  
-        <a class="last-line" href="#">Start over</a>           
+        <a class="last-link" href="#">Start over</a>           
     </nav>  
 
       
 
   </header>
-    <div class="container">
-        <div class="main">
+    <div class="l-container">
+        <div class="l-main">
           <div id="l-alert">  
             <span class="tick">&#10004;</span>
             <span class="alert-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Est qui, id facilis suscipit consequatur tempora!</span>
           </div>
       
-      <div class="content">
+      <div class="l-content">
         
-        <div class="form_wrap">
+        <div class="l-form_wrap">
           <div class="input_grp small-screen">
               <div class="input_wrap">
                   <label for="fname">First Name</label>
@@ -71,7 +74,8 @@
       </div>
       </div>
     </div>
-    </div>    
+    </div>  
+  </div>  
     <script src="./State/script.js"></script>
   </body>
 </html>

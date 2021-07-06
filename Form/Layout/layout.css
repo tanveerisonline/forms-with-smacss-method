@@ -1,0 +1,30 @@
+header {
+  max-width: 700px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 10px 10px 0px 0px;
+}
+.l-main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.l-container {
+  max-width: 700px;
+  width: 100%;
+}
+.l-main {
+  width: 90%;
+  margin: auto;
+}
+.l-article {
+  width: 90%;
+  margin: 29px 0px;
+}
+#l-alert {
+  display: flex;
+  width: 90%;
+  height: auto;
+}

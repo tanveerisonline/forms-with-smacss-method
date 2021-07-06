@@ -1,0 +1,13 @@
+.l-form_wrap input[type="text"]:focus {
+  border-color: #395582;
+}
+.l-form_wrap .submit_btn:hover {
+  background: #4065a0;
+}
+.radio-item input[type="radio"]:checked + label:after {
+  background: #4056a0;
+}
+.btn2:hover {
+  background-color: white;
+  color: black;
+}

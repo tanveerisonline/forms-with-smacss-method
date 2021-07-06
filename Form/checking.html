@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./Base/reset.css">
+    <link rel="stylesheet" href="Layout/layout.css">
     <link rel="stylesheet" href="./Module/form.css" />
     <link rel="stylesheet" href="./Module/style.css" />
+    <link rel="stylesheet" href="./State/state.css">
     <link rel="stylesheet" href="./Theme/media.css">
     <link rel="stylesheet" href="./Theme/theme.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,24 +14,26 @@
   </head>
  
   <body>
+    <div class="l-main-container">
 
     <header>
       <nav >
-          <ul class="navbar__links" id="stepTwo">
-              <li><a href="./checking.html" class="navtwo activated">Check Eligibility </a></li> 
-              <span class="right">&#62;</span>
-              <li><a href="./form.html" class="navtwo">Send a message </a></li> 
-              <span class="right">&#62;</span>
+          <ul class="navbar-links" id="stepTwo">
+              <li><a href="./checking.html" class="navtwo activated">Check Eligibility 
+                <span class="nav-arrow">&#62;</span></a></li> 
+              
+              <li><a href="./form.html" class="navtwo">Send a message 
+                <span class="nav-arrow">&#62;</span></a></li>
               <li><a href="#" class="navtwo">Find a site</a></li>                               
           </ul>                    
-            <a class="last-line" href="#">Start over</a> 
+            <a class="last-link" href="#">Start over</a> 
                     
       </nav> 
 
   </header>
-    <div class="container">
+    <div class="l-container">
               
-      <div class="content">
+      <div class="l-main">
         
         <form>
             <div class="l-article">  
@@ -38,20 +42,20 @@
                 instructional,informational or even a disclamer.</i></span>
             </div>
             
-            <div class="form_wrap message-form">
+            <div class="l-form_wrap message-form">
                
     
-                <div class="radio-item input_wrap">
+                <div class="radio-item input_wrap radio-div-one">
                     <input type="radio" id="first" name="ritem" value="ropt1">
                     <label for="first">Yes</label>
                 </div>
                 
-                <div class="radio-item input_wrap">
+                <div class="radio-item input_wrap radio-div-one">
                     <input type="radio" id="second" name="ritem" value="ropt2">
                     <label for="second">No</label>
                 </div>
     
-                <div class="radio-item input_wrap radio_text">
+                <div class="radio-item input_wrap radio_text ">
                     <input type="radio" id="third" name="ritem" value="ropt3">
                     <label for="third">
                     <div class="alert-text-radio">In Real world prescreen scanarios,a question can have short description.
@@ -67,6 +71,9 @@
       </div>
     </div>
     </div>  
+  </div>
+</div>
+</div>
     <script src="./State/scripts.js"></script>  
   </body>
 </html>
