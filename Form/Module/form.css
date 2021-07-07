@@ -38,21 +38,38 @@
   outline: none;
   font-size: 16px;
 }
+/* ----------------------------------- */
 .l-form_wrap input[type="tel"] {
-  width: 80%;
+  width: 100%;
   height: 50px;
   border-radius: 3px;
   padding: 8px;
-  margin-left: -5px;
+  margin-left: 0px;
   font-size: 16px;
 }
-.country {
-  width: 20%;
-  height: 51px;
+
+.iti--allow-dropdown input,
+.iti--allow-dropdown input[type="text"],
+.iti--allow-dropdown input[type="tel"],
+.iti--separate-dial-code input,
+.iti--separate-dial-code input[type="text"],
+.iti--separate-dial-code input[type="tel"] {
+  color: var(--input-text);
+  border: 2px solid var(--gray);
   border-radius: 3px;
-  padding: 8px;
-  outline: none;
+  padding-right: 6px;
+  padding-left: 52px;
+  margin-left: 0;
+  width: 100%;
+  height: 50px;
 }
+
+.iti__flag-box,
+.iti__country-name {
+  margin-right: 6px;
+  color: #676767;
+}
+/* --------------------------------- */
 
 .l-form_wrap ul {
   padding: 8px 10px;
@@ -86,6 +103,7 @@
   font-size: 12px;
   line-height: 15px;
 }
+
 .radio-item {
   display: block;
   position: relative;

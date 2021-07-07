@@ -57,6 +57,9 @@
     text-align: left;
     font-size: 13px;
   }
+  .alert-text-radio {
+    font-size: 12px;
+  }
   .heading {
     font-family: cursive;
     font-size: 22px;
@@ -72,14 +75,21 @@
   .l-form_wrap input[type="text"] {
     height: 35px;
   }
-  .l-form_wrap input[type="tel"] {
-    width: 70%;
+  .iti--allow-dropdown input,
+  .iti--allow-dropdown input[type="text"],
+  .iti--allow-dropdown input[type="tel"],
+  .iti--separate-dial-code input,
+  .iti--separate-dial-code input[type="text"],
+  .iti--separate-dial-code input[type="tel"] {
     height: 35px;
   }
-  .country {
-    width: 30%;
-    height: 35px;
+
+  .iti input,
+  .iti input[type="text"],
+  .iti input[type="tel"] {
+    font-size: 12px;
   }
+
   .small-screen {
     display: flex;
     justify-content: space-between;
@@ -92,31 +102,27 @@
     font-size: 14px;
   }
   .l-form_wrap .input_wrap label,
-  .country {
-    font-size: 12px;
+  .city {
+    font-size: 13px;
   }
+  .city {
+    margin-top: -14px;
+  }
+
   .l-form_wrap .input_wrap {
     margin: 4px 0px 4px 0px;
   }
-  .radio-div-one {
-    height: 35px;
+  .radio-item {
+    padding: 6px 10px;
+    height: 40px;
   }
-  .radio-item label:before {
-    top: 0px;
-    right: 1px;
-    width: 10px;
-    height: 10px;
-  }
-  .radio-item input[type="radio"]:checked + label:after {
-    width: 8px;
-    height: 8px;
-    top: 13px;
-    left: 12px;
+  .radio_text {
+    height: auto;
   }
 
-  .alert-text-radio {
-    font-size: 12px;
-    margin: -22px 0px 0px 20px;
+  .radio-item input[type="radio"]:checked + label:after {
+    top: 13px;
+    left: 12px;
   }
 
   .l-form_wrap input[type="text"],
@@ -129,7 +135,7 @@
     padding: 9px;
     font-size: 13px;
     letter-spacing: 2px;
-    margin-top: 15px;
+    margin-top: 5px;
   }
   .button-filled,
   .btn {
@@ -164,16 +170,14 @@
   ul li a {
     font-size: 10px;
   }
-  .radio-div-one {
-    height: 30px;
+  .radio-item {
+    height: 35px;
   }
-
-  .radio-item label:before {
-    top: 1px;
+  .radio_text {
+    height: auto;
   }
-
   .radio-item input[type="radio"]:checked + label:after {
-    top: 10px;
+    top: 13px;
     left: 10px;
   }
   .l-article {
@@ -188,14 +192,23 @@
   .l-form_wrap input[type="tel"] {
     height: 30px;
   }
-
-  .country {
-    width: 30%;
+  .country-code {
+    margin: 0px -5px 0px 8px;
+  }
+  .iti--allow-dropdown input,
+  .iti--allow-dropdown input[type="text"],
+  .iti--allow-dropdown input[type="tel"],
+  .iti--separate-dial-code input,
+  .iti--separate-dial-code input[type="text"],
+  .iti--separate-dial-code input[type="tel"] {
     height: 30px;
-    font-size: 9px;
   }
   .radio-item {
     padding: 6px 8px;
     margin: 15px auto;
+  }
+  .btn2,
+  .info {
+    margin: 0px -8px 0px 7px;
   }
 }

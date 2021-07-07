@@ -24,15 +24,12 @@ a {
 }
 
 .l-form_wrap .input_wrap label,
-.country {
+.country-code {
   color: var(--black);
 }
-.country {
-  background: var(--white);
-  border: 2px solid var(--gray);
-}
+
 .l-form_wrap input[type="text"],
-.l-form_wrap input[type="tel"] {
+.country-code input[type="tel"] {
   color: var(--input-text);
   border: 2px solid var(--gray);
 }
