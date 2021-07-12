@@ -1,0 +1,100 @@
+/* [Object] Modal
+ * =============================== */
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  background: rgba(238, 238, 238, 0.9);
+  transition: opacity 0.5s ease;
+}
+
+.modal-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.modal-state {
+  display: none;
+}
+
+.modal-state:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-state:checked + .modal .modal-inner {
+  top: 0;
+}
+
+.modal-inner {
+  transition: top 0.25s ease;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  margin: auto;
+  overflow: auto;
+  border-radius: 5px;
+  padding: 1em 2em;
+}
+
+.modal-close {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.modal-close:after,
+.modal-close:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 1.5em;
+  background: #ccc;
+  display: block;
+  transform: rotate(45deg);
+  left: 50%;
+  margin: -3px 0 0 -1px;
+  top: 0;
+}
+
+.modal-close:hover:after,
+.modal-close:hover:before {
+  background: #aaa;
+}
+
+.modal-close:before {
+  transform: rotate(-45deg);
+}
+.link {
+  background-size: 0 4px, auto;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: all 0.25s ease-out;
+  padding-bottom: 6px;
+}
+.download {
+  float: right;
+  margin-top: 40px;
+  height: 34px;
+  width: 200px;
+  background: #194f7e;
+  color: #ececec;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}

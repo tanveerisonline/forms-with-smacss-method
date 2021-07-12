@@ -24,11 +24,12 @@ a {
 }
 
 .l-form_wrap .input_wrap label,
-.country-code {
+.country-code label {
   color: var(--black);
 }
 
 .l-form_wrap input[type="text"],
+.l-form_wrap input[type="email"],
 .country-code input[type="tel"] {
   color: var(--input-text);
   border: 2px solid var(--gray);

@@ -1,0 +1,16 @@
+.link:hover {
+  background-size: 80% 4px, auto;
+  color: var(--btn-blue);
+}
+.btn-blue:hover,
+.btn-blue:focus {
+  background: var(--btn-blue-hover);
+}
+.btn:hover,
+.btn:focus {
+  background: var(--btn-green-hover);
+}
+.success-bg:hover {
+  background-color: #3e8e41;
+  color: var(--white-color);
+}

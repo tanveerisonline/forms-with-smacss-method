@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0px;
+}
+ul {
+  list-style: none;
+}
+li {
+  text-decoration: none;
+}

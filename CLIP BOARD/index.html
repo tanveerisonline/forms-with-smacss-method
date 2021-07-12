@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Module/popup.css">
+    <link rel="stylesheet" href="./Module/style.css">
+    <link rel="stylesheet" href="./Base/reset.css">
+    <link rel="stylesheet" href="./Layout/layout.css">
+    <link rel="stylesheet" href="./Module/modal.css">
+    <link rel="stylesheet" href="./Theme/media.css"> 
+    <link rel="stylesheet" href="./Theme/theme.css">   
+    <link rel="stylesheet" href="./State/state.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <title>Document</title>
+</head>
+<div>
+  
+    <h1>Modal box with Html Css & Js</h1>
+<div class="home-button">
+  
+    <label class="btn" for="modal-1">Show modal</label>
+    <label class="btn btn-blue" for="modal-2">Show Card</label>
+  
+</div>
+
+
+<input class="modal-state" id="modal-1" type="checkbox"/>
+<div class="modal">
+  <label class="modal-bg" for="modal-1"></label>
+  <div class="modal-inner">
+    <div class="main-container">
+    <label class="modal-close" for="modal-1"></label>
+    <h3>Embed Prescreener</h3>
+    <ul  id="stepOne">
+        <li><a href="#" class="link navone">Design</a></li>
+        <li><a href="#" class="link navone">Analytics</a></li>
+        <li><a href="#" class="link navone active">Embed Code</a></li>    
+    </ul>
+    <h2>Step 1</h2>
+    <p class="note">Paste this code into the block where Prescreener needs to be shown in your HTML.</p>
+    <div class="container">
+        <div class="label">
+        </div>
+        <div class="copy-text">
+            <input type="text" class="text" value="&#60;div&#62; code goes here &#60;/div&#62;" />
+            <button><i class="material-icons">content_copy</i></button>
+        </div> 
+        <br/>        
+        <hr/>
+
+        <h2>Step 2</h2>
+        <p class="note">Paste this code into the block where Prescreener needs to be shown in your HTML.</p>
+        <div class="label">
+        </div>
+        <div class="clone-text">
+            <input type="text" class="text" value="&#60;div&#62; code goes here &#60;/div&#62;" />
+            <button><i class="material-icons">content_copy</i></button>
+        </div>
+    </div>
+    <button class="download"><i class="material-icons downloads">file_download</i> Download Instructions</button>       
+  </div>  
+</div>
+</div>
+
+
+<input class="modal-state" id="modal-2" type="checkbox" />
+<div class="modal">
+  <label class="modal-bg" for="modal-2"></label>
+
+<div id="popUpOverlay"></div>
+
+<div id="popUpBox"> 
+  
+  <label class="modal-close" for="modal-2"></label>     
+<div class="box">
+  <h2 class="heading">Are you sure you want to publish?</h2>
+<p class="sub-heading">You are about to publish<span> Patient Ps 01 </span> as the patient pre-screener for this trial in 2 languages.</p>
+
+<div class="icon-green"><i class="material-icons">task_alt</i><p class="language-first">English</p></div>
+<div class="icon-green"><i class="material-icons">task_alt</i><p class="language-first">Spanish</p></div>
+<div class="icon-red"><i class="material-icons">highlight_off</i><p class="language-second">Incomplete - Translation file </p><i class="material-icons">help_outline</i></div>
+<div class="icon-red"><i class="material-icons">highlight_off</i><p class="language-second">Incomplete - Translation file </p><i class="material-icons">help_outline</i></div>
+
+<div class="btns">
+  <button class="text-based">Cancel</button>
+  <button class="success-bg" type="submit">Yes,publish</button>
+</div>
+
+<div id="closeModal"></div>
+</div>
+</div>
+<button onclick="Alert.render()" class="btn-pop">Show popup</button>    
+</div>
+</div>
+</body>
+<script src="./State/script.js"></script>
+<script src="./app.js"></script>
+</html>

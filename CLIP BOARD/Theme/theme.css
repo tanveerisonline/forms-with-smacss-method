@@ -1,0 +1,125 @@
+:root {
+  --icon-color: #317f64;
+  --btn-green: #27ae60;
+  --btn-green-hover: #2ecc71;
+  --btn-blue: #34638d;
+  --btn-blue-hover: #3498db;
+  --white-color: #fff;
+  --black-color: #111;
+  --copy-text-input: #f5f5f5;
+  --copied-text-color: #cacacc;
+  --navbar-color: #363636;
+  --red-color: #de5f59;
+  --language-color: #49525b;
+}
+.modal-inner {
+  background: var(--white-color);
+}
+.link {
+  background-image: linear-gradient(#3c6c94, #3c6c94);
+  color: var(--navbar-color);
+}
+.btn {
+  background: var(--btn-green);
+  color: var(--white-color);
+}
+
+.btn:active {
+  background: var(--btn-green);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+.btn-blue {
+  background: var(--btn-blue);
+}
+
+.btn-blue:active {
+  background: var(--btn-blue);
+}
+.note {
+  color: #555;
+}
+.label {
+  color: var(--black-color);
+}
+.copy-text,
+.clone-text {
+  background: var(--copy-text-input);
+  border: 1px solid #ddd;
+}
+.copy-text input.text,
+.clone-text input.text {
+  color: #555;
+  background: var(--copy-text-input);
+}
+.copy-text button,
+.clone-text button {
+  background: var(--copy-text-input);
+  color: #484545;
+}
+.copy-text button:active,
+.clone-text button:active {
+  background: var(--copied-text-color);
+}
+
+.copy-text button:before,
+.clone-text button:before {
+  background: var(--copied-text-color);
+}
+.copy-text button:after,
+.clone-text button:after {
+  background: var(--copied-text-color);
+}
+h2 {
+  color: var(--btn-blue);
+}
+h3 {
+  color: #6b7983;
+}
+.downloads {
+  color: var(--white-color);
+  font-size: 15px !important;
+}
+.btn-pop {
+  background: var(--btn-blue);
+  color: #fff;
+}
+#popUpBox {
+  background: var(--white-color);
+  box-shadow: 15px 20px 7px #dedede;
+}
+.heading {
+  color: #515a62;
+}
+.sub-heading {
+  color: #858c91;
+}
+.icon-green {
+  color: var(--icon-color);
+}
+.icon-red {
+  color: var(--red-color);
+}
+.language-first {
+  color: var(--language-color);
+}
+.sub-heading span {
+  color: #48749a;
+}
+.text-based {
+  color: #48749a;
+}
+.success-bg {
+  background-color: var(--icon-color);
+  color: var(--white-color);
+}
+
+.navone {
+  color: #6b7983;
+  cursor: pointer;
+}
+
+.active,
+.navone:hover {
+  color: #3c6c94;
+}

@@ -1,0 +1,105 @@
+/* Other
+   * =============================== */
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+}
+.home-button {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+}
+/* ==================================== */
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+li a {
+  display: inline-block;
+  padding-right: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+/* ==================================== */
+.label {
+  padding: 10px;
+  font-size: 18px;
+}
+h2 {
+  font-size: 16px;
+  margin-top: 30px;
+}
+.copy-text,
+.clone-text {
+  display: flex;
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+}
+.copy-text input.text,
+.clone-text input.text {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.copy-text button,
+.clone-text button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.copy-text button:before,
+.clone-text button:before {
+  content: "Copied";
+  position: absolute;
+  top: -45px;
+  right: 0px;
+  padding: 8px 10px;
+  border-radius: 2px;
+  font-size: 15px;
+  display: none;
+}
+.copy-text button:after,
+.clone-text button:after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 25px;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  display: none;
+}
+.copy-text.active button:before,
+.copy-text.active button:after,
+.clone-text.active button:before,
+.clone-text.active button:after {
+  display: block;
+}
+hr {
+  width: 100%;
+  float: left;
+}
+
+.note {
+  width: 100%;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+.main-container {
+  width: 50%;
+}

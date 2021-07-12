@@ -72,7 +72,8 @@
     border-radius: 100%;
     margin-right: 8px;
   }
-  .l-form_wrap input[type="text"] {
+  .l-form_wrap input[type="text"],
+  .l-form_wrap input[type="email"] {
     height: 35px;
   }
   .iti--allow-dropdown input,
@@ -126,7 +127,8 @@
   }
 
   .l-form_wrap input[type="text"],
-  .l-form_wrap input[type="tel"] {
+  .l-form_wrap input[type="tel"],
+  .l-form_wrap input[type="email"] {
     font-size: 13px;
   }
 
@@ -186,12 +188,12 @@
   .l-form_wrap .input_wrap {
     margin: 5px;
   }
-  .l-form_wrap input[type="text"] {
-    height: 30px;
-  }
+  .l-form_wrap input[type="text"],
+  .l-form_wrap input[type="email"],
   .l-form_wrap input[type="tel"] {
     height: 30px;
   }
+
   .country-code {
     margin: 0px -5px 0px 8px;
   }

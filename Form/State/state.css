@@ -1,4 +1,9 @@
-.l-form_wrap input[type="text"]:focus {
+:root {
+  --succes-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+.l-form_wrap input[type="text"]:focus,
+.l-form_wrap input[type="email"]:focus {
   border-color: #395582;
 }
 .l-form_wrap .submit_btn:hover {
@@ -11,3 +16,29 @@
   background-color: white;
   color: black;
 }
+/* ---------------------error------------------ */
+.input_wrap.success input,
+.country-code.success input {
+  border-color: var(--succes-color);
+}
+
+.input_wrap.error input,
+.country-code.error input {
+  border-color: var(--error-color);
+}
+
+.input_wrap small,
+.country-code small {
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.input_wrap.error small,
+.country-code.error small {
+  visibility: visible;
+}
+
+/* ---------------------Error------------------------- */

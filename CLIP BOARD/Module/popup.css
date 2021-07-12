@@ -1,0 +1,89 @@
+.btn-pop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+#popUpBox {
+  overflow: hidden;
+  position: absolute;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  padding: 10px;
+  text-align: center;
+  display: none;
+}
+.box {
+  padding: 0px 15px;
+  text-align: left;
+  line-height: 10px;
+}
+.heading,
+.sub-heading {
+  text-align: left;
+  word-spacing: 2px;
+}
+.heading {
+  padding-bottom: 10px;
+  font-size: 22px;
+}
+
+.sub-heading {
+  width: 90%;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.icon-green,
+.icon-red {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+}
+.icon-green {
+  font-size: 16px;
+  font-weight: 700;
+}
+.icon-red {
+  font-size: 16px;
+}
+.language-first {
+  padding-left: 12px;
+}
+.sub-heading span {
+  font-weight: 700;
+}
+
+.language-second {
+  padding-left: 12px;
+  padding-right: 5px;
+}
+.btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-based {
+  border: none;
+  background-color: inherit;
+  padding: 16px 32px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.success-bg {
+  border: none;
+  border-radius: 5px;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  cursor: pointer;
+}
